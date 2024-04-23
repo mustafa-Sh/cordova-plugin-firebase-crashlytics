@@ -63,7 +63,6 @@
     </js-module>
 
     <config-file target="config.xml" parent="/*">
-      <preference name="deployment-target" value="11.0"/>
       <feature name="FirebaseCrashlytics">
         <param name="ios-package" value="FirebaseCrashlyticsPlugin" onload="true"/>
       </feature>
@@ -73,7 +72,7 @@
       <config>
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
-      <pods use-frameworks="true">
+      <pods use-frameworks="true" ios-min-version="12.0">
         <pod name="FirebaseCrashlytics"  />
         <pod name="FirebaseAnalytics" />
       </pods>
