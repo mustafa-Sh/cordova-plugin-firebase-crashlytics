@@ -63,6 +63,7 @@
     </js-module>
 
     <config-file target="config.xml" parent="/*">
+      <preference name="deployment-target" value="11.0"/>
       <feature name="FirebaseCrashlytics">
         <param name="ios-package" value="FirebaseCrashlyticsPlugin" onload="true"/>
       </feature>
